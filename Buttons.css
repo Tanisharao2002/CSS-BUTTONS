@@ -137,7 +137,7 @@
 
 .btnborder1:hover{
     border:2px solid rgb(141, 65, 65);
-    color:rgb(0, 0, 0)
+    color:rgb(0, 0, 0);
 }
 
 .btnborder2{
@@ -195,6 +195,139 @@
     box-shadow: 0px 6px 6px 0px rgb(108, 108, 108);
 }
 
+.btnborder1-fill{
+    border: 2px solid rgb(209, 106, 106);
+    background-color: transparent;
+    color:rgb(35, 34, 34)
+}
+
+.btnborder1-fill:hover{ 
+    color:rgb(255, 255, 255);
+    animation: cover1 2s ease;
+    animation-fill-mode: forwards;
+}
+
+@keyframes cover1{
+    0%{
+        background-color: transparent;
+    }
+    100%{
+        background-color: rgb(141, 65, 65);
+    }
+}
+
+.btnborder2-fill{
+    border:2px solid rgb(91, 174, 117);
+    color:rgb(0, 0, 0)
+}
+
+.btnborder2-fill:hover{
+    border:2px solid rgb(36, 84, 51);
+    color:rgb(0, 0, 0);
+    box-shadow: 0px 0px 2px 2px black;
+    animation: cover2 2s ease;
+    animation-fill-mode: forwards;
+}
+
+@keyframes cover2{
+    0%{
+        background-color: transparent;
+    }
+    100%{
+        background-color: rgb(36, 84, 51);
+    }
+}
+
+.btnborder3-fill{
+    border:2px solid rgb(232, 232, 232);
+    color:rgb(0, 0, 0)
+}
+
+.btnborder3-fill:hover{
+    border:2px solid rgb(175, 175, 175);
+    color:rgb(0, 0, 0);
+    box-shadow: 2px 1.5px 2px 1.5px black;
+    animation: cover3 2s ease;
+    animation-fill-mode: forwards;
+}
+
+@keyframes cover3{
+    0%{
+        background-color: transparent;
+    }
+    100%{
+        background-color:rgb(175, 175, 175);
+    }
+}
+
+.btnborder4-fill{
+    border:2px solid rgb(31, 73, 107);
+    color:rgb(0, 0, 0)
+}
+
+.btnborder4-fill:hover{
+    border:2px solid rgb(10, 68, 127);
+    color:rgb(0, 0, 0);
+    box-shadow: 5px 4px 5px 4px rgb(108, 108, 108);
+    animation: cover4 2s ease;
+    animation-fill-mode: forwards;
+}
+
+@keyframes cover4{
+    0%{
+        background-color: transparent;
+    }
+    100%{
+        background-color: rgb(10, 68, 127);
+    }
+}
+
+.btnborder5-fill{
+    border:2px solid rgb(87, 6, 142);
+    color:rgb(0, 0, 0)
+}
+
+.btnborder5-fill:hover{
+    border:2px solid rgb(152, 7, 255);
+    color:rgb(0, 0, 0);
+    box-shadow: 8px 5px 8px 5px rgb(108, 108, 108);
+    animation: cover5 2s ease;
+    animation-fill-mode: forwards;
+}
+
+@keyframes cover5{
+    0%{
+        background-color: transparent;
+    }
+    100%{
+        background-color: rgb(152, 7, 255);
+    }
+}
+
+.btnborder6-fill{
+    border:2px solid rgb(135, 4, 90);
+    color:rgb(0, 0, 0)
+}
+
+.btnborder6-fill:hover{
+    border:2px solid rgb(179, 55, 188);
+    color:rgb(0, 0, 0);
+    box-shadow: 0px 6px 6px 0px rgb(108, 108, 108);
+    animation: cover6 2s ease;
+    animation-fill-mode: forwards;
+}
+
+@keyframes cover6{
+    0%{
+        background-color: transparent;
+    }
+    100%{
+        background-color: rgb(179, 55, 188);
+    }
+}
+
 .transparent{
     background-color: rgba(240, 248, 255, 0);
 }
+
+
