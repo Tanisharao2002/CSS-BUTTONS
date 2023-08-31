@@ -245,7 +245,7 @@
 
 .btnborder3-fill:hover{
     border:2px solid rgb(175, 175, 175);
-    color:rgb(0, 0, 0);
+    color:rgb(43, 42, 42);
     box-shadow: 2px 1.5px 2px 1.5px black;
     animation: cover3 2s ease;
     animation-fill-mode: forwards;
@@ -267,7 +267,7 @@
 
 .btnborder4-fill:hover{
     border:2px solid rgb(10, 68, 127);
-    color:rgb(0, 0, 0);
+    color:rgb(255, 255, 255);
     box-shadow: 5px 4px 5px 4px rgb(108, 108, 108);
     animation: cover4 2s ease;
     animation-fill-mode: forwards;
@@ -289,7 +289,7 @@
 
 .btnborder5-fill:hover{
     border:2px solid rgb(152, 7, 255);
-    color:rgb(0, 0, 0);
+    color:rgb(255, 255, 255);
     box-shadow: 8px 5px 8px 5px rgb(108, 108, 108);
     animation: cover5 2s ease;
     animation-fill-mode: forwards;
@@ -311,7 +311,7 @@
 
 .btnborder6-fill:hover{
     border:2px solid rgb(179, 55, 188);
-    color:rgb(0, 0, 0);
+    color:rgb(255, 255, 255);
     box-shadow: 0px 6px 6px 0px rgb(108, 108, 108);
     animation: cover6 2s ease;
     animation-fill-mode: forwards;
